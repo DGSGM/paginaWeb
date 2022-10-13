@@ -9,13 +9,13 @@ const prev = document.querySelector('.prev')
 const next = document.querySelector('.next')
 const slider = document.querySelector('.slider')
 
-/*prev.addEventListener('click', () => {
+prev.addEventListener('click', () => {
     slider.scrollLeft -= 300
 })
 
 next.addEventListener('click', () => {
     slider.scrollLeft += 300
-})*/
+})
 
 let cerrar = document.querySelectorAll(".close")[0];
 let abrir = document.querySelectorAll(".cta")[0];
